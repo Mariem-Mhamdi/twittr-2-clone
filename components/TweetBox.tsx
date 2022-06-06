@@ -18,7 +18,7 @@ function Tweetbox({ setTweets }: Props) {
     const [input, setInput] = useState('');
     const { data: session } = useSession();
     const [imageUrlBoxIsOpen, setImageUrlBoxIsOpen] = useState(false);
-    const [image, setImage] = useState<String>('')
+    const [image, setImage] = useState('')
 
     const imageInputRef = useRef<HTMLInputElement>(null)
 
